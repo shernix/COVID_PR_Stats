@@ -3,14 +3,15 @@
     <h1>{{ msg }}</h1>
 
     <ul>
-      <li>Recovered: {{ stats.recovered }}</li>
+      <li>Cases: {{ stats.cases }}</li>
       <li>Active: {{ stats.active }}</li>
-      <li>Active: {{ stats.critical }}</li>
-      <li>Today's Deaths: {{ stats.todayDeaths }}</li>
+      <li>Recovered: {{ stats.recovered }}</li>
+      <li>Critical: {{ stats.critical }}</li>
       <li>Deaths: {{ stats.deaths }}</li>
     </ul>
-    <h1>Cases: {{ stats.cases }}</h1>
+    
     <h1>Today's New Cases: {{ stats.todayCases }}</h1>
+    <h1>Today's Deaths: {{ stats.todayDeaths }}</h1>
     <a><img class="sillu" src="https://cdn.clipart.email/b0bee606d628f834a0ed00a074ff3e4f_puerto-rico-map-silhouette-free-vector-silhouettes_800-264.svg" width="350" alt="Puerto Rico Island Silhouette" /></a>
   </div>
 </template>
