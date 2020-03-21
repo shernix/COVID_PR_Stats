@@ -28,5 +28,5 @@ export default new Router({
       component: FourOhFour
     }
   ],
-  mode: 'abstract'
+  mode: 'history'
 })
