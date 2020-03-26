@@ -2,14 +2,14 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <ul>
-      <li>Cases: {{ stats.cases }}</li>
-      <li>Active: {{ stats.active }}</li>
-      <li>Recovered: {{ stats.recovered }}</li>
-      <li>Critical: {{ stats.critical }}</li>
-      <li>Deaths: {{ stats.deaths }}</li>
+      <li>Cases: {{ stats[52].cases }}</li>
+      <li>Active: {{ stats[52].active }}</li>
+      <li>Recovered: {{ stats[52].cases - stats[52].active - stats[52].deaths }}</li>
+      <!--<li>Critical: {{ stats[52].critical }}</li>-->
+      <li>Deaths: {{ stats[52].deaths }}</li>
     </ul>
-    <h1>Today's New Cases: {{ stats.todayCases }}</h1>
-    <h1>Today's Deaths: {{ stats.todayDeaths }}</h1>
+    <h1>Today's New Cases: {{ stats[52].todayCases }}</h1>
+    <h1>Today's Deaths: {{ stats[52].todayDeaths }}</h1>
     <a><img class="sillu" src="https://cdn.clipart.email/b0bee606d628f834a0ed00a074ff3e4f_puerto-rico-map-silhouette-free-vector-silhouettes_800-264.svg" width="350" alt="Puerto Rico Island Silhouette" /></a>
   </div>
 </template>
@@ -25,7 +25,7 @@ export default {
     }
   },
   mounted: function () {
-    axios.get('https://coronavirus-19-api.herokuapp.com/countries/Puerto%20Rico')
+    axios.get('https://corona.lmao.ninja/states')
       .then(response => (this.stats = response.data))
   }
 }
