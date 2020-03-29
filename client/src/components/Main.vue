@@ -2,14 +2,14 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <ul>
-      <li>Cases: {{ stats[52].cases }}</li>
-      <li>Active: {{ stats[52].active }}</li>
-      <li>Recovered: {{ stats[52].cases - stats[52].active - stats[52].deaths }}</li>
+      <li>Cases: {{ stats[53].cases }}</li>
+      <li>Active: {{ stats[53].active }}</li>
+      <li>Recovered: {{ stats[53].cases - stats[53].active - stats[53].deaths }}</li>
       <!--<li>Critical: {{ stats[52].critical }}</li>-->
-      <li>Deaths: {{ stats[52].deaths }}</li>
+      <li>Deaths: {{ stats[53].deaths }}</li>
     </ul>
-    <h1>Today's New Cases: {{ stats[52].todayCases }}</h1>
-    <h1>Today's Deaths: {{ stats[52].todayDeaths }}</h1>
+    <h1>Today's New Cases: {{ stats[53].todayCases }}</h1>
+    <h1>Today's Deaths: {{ stats[53].todayDeaths }}</h1>
     <a><img class="sillu" src="https://pbs.twimg.com/media/EUR96mbXsAAjSbT?format=jpg&name=large" width="100%" alt="PR" /></a>
   </div>
 </template>
