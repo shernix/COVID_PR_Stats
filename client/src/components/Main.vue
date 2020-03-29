@@ -10,7 +10,7 @@
     </ul>
     <h1>Today's New Cases: {{ stats[52].todayCases }}</h1>
     <h1>Today's Deaths: {{ stats[52].todayDeaths }}</h1>
-    <a><img class="sillu" src="https://pbs.twimg.com/media/EUR96mbXsAAjSbT?format=jpg&name=large" width="550" alt="PR" /></a>
+    <a><img class="sillu" src="https://pbs.twimg.com/media/EUR96mbXsAAjSbT?format=jpg&name=large" width="100%" alt="PR" /></a>
   </div>
 </template>
 
