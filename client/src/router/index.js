@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Main from '@/components/Main'
 import Gov from '@/components/Gov'
+import Info from '@/components/Info'
 import FourOhFour from '@/components/FourOhFour'
 
 Vue.use(Router)
@@ -22,6 +23,11 @@ export default new Router({
       path: '/govStats',
       name: 'Gov',
       component: Gov
+    },
+    {
+      path: '/info',
+      name: 'Info',
+      component: Info
     },
     {
       path: '/*',
