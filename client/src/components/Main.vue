@@ -10,7 +10,7 @@
     </ul>
     <h1>Today's New Cases: {{ stats[53].todayCases }}</h1>
     <h1>Today's Deaths: {{ stats[53].todayDeaths }}</h1>
-    <a><img class="sillu" src="https://pbs.twimg.com/media/EUR96mbXsAAjSbT?format=jpg&name=large" width="100%" alt="PR" /></a>
+    <a><img class="sillu" src="https://scontent-mia3-2.xx.fbcdn.net/v/t1.0-9/91414318_3133039316727845_8644007319723573248_n.jpg?_nc_cat=107&_nc_sid=110474&_nc_ohc=7B1qolUqWJ0AX_z3b0e&_nc_ht=scontent-mia3-2.xx&oh=65a368992b6eef02515fbc75866e53f8&oe=5EAB895F" width="100%" alt="PR" /></a>
   </div>
 </template>
 
