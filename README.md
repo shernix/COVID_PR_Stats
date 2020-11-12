@@ -2,4 +2,4 @@
 Simplistic statistics viewer about the covid19 cases in Puerto Rico.
 API: https://github.com/javieraviles/covidAPI
 
-App: covidpr.netlify.com
+App: https://covidpr.netlify.app
